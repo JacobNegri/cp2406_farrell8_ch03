@@ -9,7 +9,7 @@ public class DebugThree1
       calcTip(mycheck);
       calctip(yourCheck);
     }
-    public static int calcTip(int bill)
+    public static void calcTip(double bill)
     {
       final double RATE = 0.15;
       tip = bill + RATE;
