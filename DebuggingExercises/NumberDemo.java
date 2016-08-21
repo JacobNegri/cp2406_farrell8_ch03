@@ -1,5 +1,8 @@
+/**
+ * Created by jc319816 on 22/08/16.
+ */
 
-public class NumbersDemo
+public class NumberDemo
 {
    public static void main (String args[])
    {
