@@ -13,10 +13,10 @@ public class DebugThree3
       String name;
       Scanner input = new Scanner(System.in);
       System.out.print("Enter name: " );
-      name = input.nextInt();
+      name = input.nextLine();
       return name;
    }
-   public static void displayGreeting()
+   public static void displayGreeting(String name)
    {
       System.out.println("Hello, " + name + "!");
    }

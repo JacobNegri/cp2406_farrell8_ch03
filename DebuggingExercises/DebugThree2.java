@@ -13,7 +13,7 @@ public class DebugThree2
       System.out.println("The sum of " + a +
         " and" + b + " is" + (a + b));
    }
-   public void subtract()
+   public static void subtract(int a, int b)
    {
       System.out.println("The difference between " +
         a + " and" + b + " is" + (a - b));
